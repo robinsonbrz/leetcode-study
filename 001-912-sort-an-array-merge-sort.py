@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/sort-an-array/ 
 
-
+# recursive implementation
 class Solution:
     def sortArray(self, nums: list[int]) -> list[int]:
         if len(nums) <= 1:
